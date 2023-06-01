@@ -1,0 +1,117 @@
+/* HOME PAGE */
+.home-page{
+    background-color : #19a7ce1d;
+}
+
+.home-page h2, .summary-page h2, .booking-page h2{
+    text-align: center;
+    margin: 0 0 50px 0;
+    padding: 17px;
+    background-color: black;
+    color: #f6f1f1;
+}
+
+.show-img{
+    width: 206px;
+    height: 273px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px;
+}
+
+.each-card{
+    border: 1px solid black;
+    display: flex;
+    width: 260px;
+    margin: 20px;
+    padding: 17px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 2px 2px 8px #9a9a9a;
+}
+
+.about-show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-name{
+    margin: 10px 0 4px 0;
+}
+
+.show-info{
+    margin: 0;
+}
+
+.summary-btn{
+    background-color: #19A7CE;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 4px 9px;
+    margin-top: 7px;
+}
+
+.summary-btn:hover{
+    background-color: #248ab9;
+    box-shadow: 2px 2px 8px #9a9a9a;
+}
+
+/* SUMMARY PAGE */
+
+.summary{
+    color: #166082;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.summary-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booking-btn{
+    background-color: #19A7CE;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin: 50px;
+    font: 26px;
+    align-items: center;
+    text-decoration: none;
+    padding: 4px 9px;
+}
+
+/* BOOKING PAGE */
+
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px #19A7CE;
+    padding: 40px;
+    width: 400px;
+    margin: auto;
+}
+
+.inputs{
+    margin: 14px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
